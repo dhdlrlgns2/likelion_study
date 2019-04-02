@@ -14,7 +14,7 @@ h1{
     border-width: 20px;
     text-align: center;
     border : 200;
-    height: 50vh;
+    height: 50vmin;
     font-size : 7vw;
     font-family: 'Courier new', sans-serif;
     background : url(./background.jpg);
