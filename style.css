@@ -40,7 +40,7 @@ h1{
     height: 80px;
     line-height: 80px; 
     list-style: none;
-    padding: 0 10px;
+    padding: 0 25px;
     transition: background .5s; 
 }
 .icon{
