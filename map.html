@@ -34,16 +34,23 @@
         <div id="map" style="width:100%;height:400px;"></div>
 
     <script>
-    var mapOptions = {
-        center: new naver.maps.LatLng(35.213612, 126.847814),
-        zoom: 10
-    };
 
-    var map = new naver.maps.Map('map', mapOptions);
-    var marker = new naver.maps.Marker({
-        map : map,
-        position: map
-    });
+
+    var HOME_PATH = window.HOME_PATH || '.';
+
+    var ymarket = new naver.maps.LatLng(35.213612, 126.847814),
+        map = new naver.maps.Map('map', {
+            center: ymarket.destinationPoint(0, 500),
+            zoom: 10
+        }),
+        marker = new naver.maps.Marker({
+            map: map,
+            position: ymarket
+        });
+
+
+
+
 
     var contentString = [
         '<div class="iw_inner">',
