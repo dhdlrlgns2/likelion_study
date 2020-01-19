@@ -3,7 +3,7 @@ body{
     margin: 0 0;
 }
 h2{
-    font-size : 4vw;
+    font-size : 4vh;
 }
 h1{
     padding-top : 20vh;
@@ -14,36 +14,38 @@ h1{
     /*border-style: solid;
     border-width: 20px;*/
     text-align: center;
-    border : 200;
     height: 70vh;
-    font-size : 7vw;
+    font-size : 6vh;
     font-family: 'Courier new', sans-serif;
-    background : url(./background.jpg);
+    background : url(./newback.jpg);
     background-size: cover;
     background-position: center;
+    float : center;
     opacity: 0.8;
 }
+
 .container {
-    margin: 0 2vw;
+    margin: 0 0;
     max-width: 940px; 
-    padding: 0 1vw;
-    width: 700px;
+    padding: 0 0;
 }
 .nav ul {
+    background-color: rgba(255, 255, 255,0.6);
     float :left;
     height: 80px;
+    width : 100vw;
     list-style: none;
-    margin: 0 auto; 
-    padding: 0;
+    margin: 10px auto; 
+    padding: 0px;
 }  
 .nav ul li {
-    font-size : 2vw;
+    font-size : 5vw;
     color: black;
     display: inline-block; 
     height: 80px;
     line-height: 80px; 
     list-style: none;
-    padding: 0 25px;
+    padding: 0 10px;
     transition: background .5s; 
 }
 .icon{
@@ -66,7 +68,7 @@ h1{
 
 
 .btn:hover, .nav ul li:hover {
-    color: white;
+    color: rgb(222,200,97);
     cursor: pointer; 
     transition: background .5s;  
 }
@@ -96,4 +98,9 @@ p{
 }
 .in-intro{
     padding: 0 10vw;
+}
+img{
+    height: 80%;
+    width : 80%;
+    padding : 10px;
 }
